@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background: #000;*/
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.lifestylebug.com%2Fwp-content%2Fuploads%2F2014%2F02%2Fbigstock-green-matrix-background-comput-16344824-750x400.jpg&f=1&nofb=1);
+  background-size: contain;
+}
+
+.title {
+  color: rgb(202, 82, 82);
+  position: absolute;
+  align-items: center;
+  top: 15%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 22px; 
+  
+}
+
+input {
+  color: #fff;
+  padding: 17px;
+  outline: none;
+  font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 25%;
+}
+
+.num {
+  width: 64px;
+  height: 67px;
+}
+
+.text {
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.text1 {
+  width: 24px;
+  height: 26px;
+  border-radius: 50%;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+
+.main {
+  display: inline;
+}
+
+.maincolor {
+  background-color: #000;
+}
+
+.blue {
+  background-color: #0cd0cd;
+}
+
+.pin {
+  background-color: #cf1596;
+}
+
+.gre {
+  background-color: #3dd800;
+}
+
+
+.pur {
+  background-color: #5406f0;
+}
+
+.ora {
+  background-color: #fcb707;
+}
